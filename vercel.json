@@ -1,29 +1,29 @@
 {
     "functions": {
-        "api/index1.php": {
+        "api/index.php": {
             "runtime": "vercel-php@0.7.1"
         }
     },
     "routes": [
         {
-            "src": "/api/index1.php",
-            "dest": "/api/index1.php"
+            "src": "/api/index.php",
+            "dest": "/api/index.php"
         },
         {
             "src": "api/contact",
-            "dest": "api/contact.php"
+            "dest": "public/contact.php"
         },
         {
             "src": "api/aboutus",
-            "dest": "api/aboutus.php"
+            "dest": "public/aboutus.php"
         },
         {
             "src": "api/portofolio",
-            "dest": "api/portofolio.php"
+            "dest": "public/portofolio.php"
         },
         {
             "src": "/(.*)",
-            "dest": "/api/index1.php"
+            "dest": "/api/index.php"
         }
     ]
 }
