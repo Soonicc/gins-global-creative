@@ -45,7 +45,7 @@
         }
 
         .jumbotron {
-            background: url('1.jpeg') no-repeat center center;
+            background: url('/1.jpeg') no-repeat center center;
             background-size: 100% auto;
             color: white;
             height: 500px;
