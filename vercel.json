@@ -21,6 +21,10 @@
             "src": "/portofolio.php",
             "dest": "/public/portofolio.php"
         },
+          {
+            "src": "/logo.png",
+            "dest": "/public/logo.png"
+        },
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
