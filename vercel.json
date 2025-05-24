@@ -10,15 +10,15 @@
             "dest": "/api/index.php"
         },
         {
-            "src": "/contact",
+            "src": "/contact.php",
             "dest": "/public/contact.php"
         },
         {
-            "src": "/aboutus",
+            "src": "/aboutus.php",
             "dest": "/public/aboutus.php"
         },
         {
-            "src": "/portofolio",
+            "src": "/portofolio.php",
             "dest": "/public/portofolio.php"
         },
         {
