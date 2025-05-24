@@ -27,7 +27,7 @@
         },
            {
             "src": "/1.jpeg",
-            "dest": "/public//1.jpeg"
+            "dest": "/public/1.jpeg"
         },
         {
             "src": "/(.*)",
