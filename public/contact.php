@@ -112,10 +112,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="index1.php">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="aboutus.php">About Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="portofolio.php">Portfolio</a></li>
-                <li class="nav-item active"><a class="nav-link" href="contact.php">Contact Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/aboutus.php">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="/portofolio.php">Portfolio</a></li>
+                <li class="nav-item active"><a class="nav-link" href="/contact.php">Contact Us</a></li>
             </ul>
         </div>
     </nav>
