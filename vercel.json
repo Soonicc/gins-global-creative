@@ -1,37 +1,34 @@
 {
-    "functions": {
-        "api/index.php": {
-            "runtime": "vercel-php@0.7.1"
-        }
+  "functions": {
+    "api/index.php": {
+      "runtime": "vercel-php@0.7.1"
     },
-    "routes": [
-        {
-            "src": "/api/index.php",
-            "dest": "/api/index.php"
-        },
-        {
-            "src": "/contact",
-            "dest": "/public/contact.php"
-        },
-        {
-            "src": "/aboutus",
-            "dest": "/public/aboutus.php"
-        },
-        {
-            "src": "/portofolio",
-            "dest": "/public/portofolio.php"
-        },
-          {
-            "src": "/logo.png",
-            "dest": "/public/logo.png"
-        },
-           {
-            "src": "/1.jpeg",
-            "dest": "/public/1.jpeg"
-        },
-        {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
-        }
-    ]
+    "public/contact.php": {
+      "runtime": "vercel-php@0.7.1"
+    },
+    "public/aboutus.php": {
+      "runtime": "vercel-php@0.7.1"
+    },
+    "public/portofolio.php": {
+      "runtime": "vercel-php@0.7.1"
+    }
+  },
+  "routes": [
+    {
+      "src": "/contact",
+      "dest": "/public/contact.php"
+    },
+    {
+      "src": "/aboutus",
+      "dest": "/public/aboutus.php"
+    },
+    {
+      "src": "/portofolio",
+      "dest": "/public/portofolio.php"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.php"
+    }
+  ]
 }
