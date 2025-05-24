@@ -11,15 +11,15 @@
         },
         {
             "src": "/contact",
-            "dest": "public/contact.php"
+            "dest": "/public/contact.php"
         },
         {
             "src": "/aboutus",
-            "dest": "public/aboutus.php"
+            "dest": "/public/aboutus.php"
         },
         {
             "src": "/portofolio",
-            "dest": "public/portofolio.php"
+            "dest": "/public/portofolio.php"
         },
         {
             "src": "/(.*)",
