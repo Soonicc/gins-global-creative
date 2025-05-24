@@ -1,37 +1,43 @@
 {
-    "functions": {
-        "api/index.php": {
-            "runtime": "vercel-php@0.7.1"
-        }
+  "functions": {
+    "api/index.php": {
+      "runtime": "vercel-php@0.7.1"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/index.php",
+      "dest": "/api/index.php",
+      "continue": true
     },
-    "routes": [
-        {
-            "src": "/api/index.php",
-            "dest": "/api/index.php"
-        },
-        {
-            "src": "/contact.php",
-            "dest": "/public/contact.php"
-        },
-        {
-            "src": "/aboutus.php",
-            "dest": "/public/aboutus.php"
-        },
-        {
-            "src": "/portofolio.php",
-            "dest": "/public/portofolio.php"
-        },
-        {
-            "src": "/logo.png",
-            "dest": "/public/logo.png"
-        },
-        {
-            "src": "/1.jpeg",
-            "dest": "/public/1.jpeg"
-        },
-        {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
-        }
-    ]
+    {
+      "src": "/contact",
+      "dest": "/public/contact.php",
+      "continue": true
+    },
+    {
+      "src": "/aboutus",
+      "dest": "/public/aboutus.php",
+      "continue": true
+    },
+    {
+      "src": "/portofolio",
+      "dest": "/public/portofolio.php",
+      "continue": true
+    },
+    {
+      "src": "/logo.png",
+      "dest": "/public/logo.png",
+      "continue": true
+    },
+    {
+      "src": "/1.jpeg",
+      "dest": "/public/1.jpeg",
+      "continue": true
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.php"
+    }
+  ]
 }
