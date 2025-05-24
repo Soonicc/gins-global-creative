@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - GINS Global Creative</title>
-    <link rel="shorcut icon" href="logo.png" type="image/x-icon">
+    <link rel="shorcut icon" href="/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Font Awesome untuk ikon Instagram -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -113,9 +113,9 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="/aboutus.php">About Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="/portofolio.php">Portfolio</a></li>
-                <li class="nav-item active"><a class="nav-link" href="/contact.php">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="/aboutus">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="/portofolio">Portfolio</a></li>
+                <li class="nav-item active"><a class="nav-link" href="/contact">Contact Us</a></li>
             </ul>
         </div>
     </nav>
